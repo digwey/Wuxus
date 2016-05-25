@@ -1,1121 +1,667 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1E1EB28C66F2FCA0750C1D4E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>40ECC3C1B4EBD126821A54B0</string>
-				<string>AF6405960DB30575713FA4DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B8B6C614428670557302B60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E338F559AB0BBC87742992F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F7D49EC1E862650CA4137F1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>40ECC3C1B4EBD126821A54B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-WuxusTask.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57B73F94A37E99C8E56878B9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AB11CF63279005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49ABC1CF63279005F883C</string>
-				<string>61B49AD11CF63279005F883C</string>
-				<string>61B49ADC1CF6327A005F883C</string>
-				<string>61B49ABB1CF63279005F883C</string>
-				<string>1E1EB28C66F2FCA0750C1D4E</string>
-				<string>3B8B6C614428670557302B60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AB21CF63279005F883C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>CrossWorkers</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>61B49AB91CF63279005F883C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>61B49ACD1CF63279005F883C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>61B49AB91CF63279005F883C</string>
-					</dict>
-					<key>61B49AD81CF6327A005F883C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>61B49AB91CF63279005F883C</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>61B49AB51CF63279005F883C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>61B49AB11CF63279005F883C</string>
-			<key>productRefGroup</key>
-			<string>61B49ABB1CF63279005F883C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>61B49AB91CF63279005F883C</string>
-				<string>61B49ACD1CF63279005F883C</string>
-				<string>61B49AD81CF6327A005F883C</string>
-			</array>
-		</dict>
-		<key>61B49AB51CF63279005F883C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61B49AE01CF6327A005F883C</string>
-				<string>61B49AE11CF6327A005F883C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61B49AB61CF63279005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61B49AC01CF63279005F883C</string>
-				<string>61B49ABE1CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AB71CF63279005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>867EE294E67128ACA3CCD8F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AB81CF63279005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61B49AC81CF63279005F883C</string>
-				<string>61B49AC51CF63279005F883C</string>
-				<string>61B49AC31CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AB91CF63279005F883C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61B49AE21CF6327A005F883C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9E4BA798C77FAA4965384BEA</string>
-				<string>61B49AB61CF63279005F883C</string>
-				<string>61B49AB71CF63279005F883C</string>
-				<string>61B49AB81CF63279005F883C</string>
-				<string>3F7D49EC1E862650CA4137F1</string>
-				<string>57B73F94A37E99C8E56878B9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WuxusTask</string>
-			<key>productName</key>
-			<string>WuxusTask</string>
-			<key>productReference</key>
-			<string>61B49ABA1CF63279005F883C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>61B49ABA1CF63279005F883C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WuxusTask.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>61B49ABB1CF63279005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49ABA1CF63279005F883C</string>
-				<string>61B49ACE1CF63279005F883C</string>
-				<string>61B49AD91CF6327A005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49ABC1CF63279005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49ABD1CF63279005F883C</string>
-				<string>61B49ABF1CF63279005F883C</string>
-				<string>61B49AC11CF63279005F883C</string>
-				<string>61B49AC41CF63279005F883C</string>
-				<string>61B49AC61CF63279005F883C</string>
-				<string>61B49AC91CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WuxusTask</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49ABD1CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49ABE1CF63279005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49ABD1CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49ABF1CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AC01CF63279005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49ABF1CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49AC11CF63279005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49AC21CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AC21CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AC31CF63279005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49AC11CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49AC41CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AC51CF63279005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49AC41CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49AC61CF63279005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49AC71CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AC71CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AC81CF63279005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49AC61CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49AC91CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49ACA1CF63279005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61B49AD31CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49ACB1CF63279005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49ACC1CF63279005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49ACD1CF63279005F883C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61B49AE51CF6327A005F883C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>61B49ACA1CF63279005F883C</string>
-				<string>61B49ACB1CF63279005F883C</string>
-				<string>61B49ACC1CF63279005F883C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>61B49AD01CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WuxusTaskTests</string>
-			<key>productName</key>
-			<string>WuxusTaskTests</string>
-			<key>productReference</key>
-			<string>61B49ACE1CF63279005F883C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>61B49ACE1CF63279005F883C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WuxusTaskTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>61B49ACF1CF63279005F883C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>61B49AB21CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61B49AB91CF63279005F883C</string>
-			<key>remoteInfo</key>
-			<string>WuxusTask</string>
-		</dict>
-		<key>61B49AD01CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>61B49AB91CF63279005F883C</string>
-			<key>targetProxy</key>
-			<string>61B49ACF1CF63279005F883C</string>
-		</dict>
-		<key>61B49AD11CF63279005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49AD21CF63279005F883C</string>
-				<string>61B49AD41CF63279005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WuxusTaskTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AD21CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WuxusTaskTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AD31CF63279005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49AD21CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49AD41CF63279005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AD51CF6327A005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61B49ADE1CF6327A005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AD61CF6327A005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AD71CF6327A005F883C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61B49AD81CF6327A005F883C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61B49AE81CF6327A005F883C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>61B49AD51CF6327A005F883C</string>
-				<string>61B49AD61CF6327A005F883C</string>
-				<string>61B49AD71CF6327A005F883C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>61B49ADB1CF6327A005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WuxusTaskUITests</string>
-			<key>productName</key>
-			<string>WuxusTaskUITests</string>
-			<key>productReference</key>
-			<string>61B49AD91CF6327A005F883C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>61B49AD91CF6327A005F883C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WuxusTaskUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>61B49ADA1CF6327A005F883C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>61B49AB21CF63279005F883C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61B49AB91CF63279005F883C</string>
-			<key>remoteInfo</key>
-			<string>WuxusTask</string>
-		</dict>
-		<key>61B49ADB1CF6327A005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>61B49AB91CF63279005F883C</string>
-			<key>targetProxy</key>
-			<string>61B49ADA1CF6327A005F883C</string>
-		</dict>
-		<key>61B49ADC1CF6327A005F883C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61B49ADD1CF6327A005F883C</string>
-				<string>61B49ADF1CF6327A005F883C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>WuxusTaskUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49ADD1CF6327A005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>WuxusTaskUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49ADE1CF6327A005F883C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61B49ADD1CF6327A005F883C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B49ADF1CF6327A005F883C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61B49AE01CF6327A005F883C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61B49AE11CF6327A005F883C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61B49AE21CF6327A005F883C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61B49AE31CF6327A005F883C</string>
-				<string>61B49AE41CF6327A005F883C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61B49AE31CF6327A005F883C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>40ECC3C1B4EBD126821A54B0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WuxusTask/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.cw.WuxusTask</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61B49AE41CF6327A005F883C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AF6405960DB30575713FA4DE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WuxusTask/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.cw.WuxusTask</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61B49AE51CF6327A005F883C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61B49AE61CF6327A005F883C</string>
-				<string>61B49AE71CF6327A005F883C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61B49AE61CF6327A005F883C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WuxusTaskTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.cw.WuxusTaskTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/WuxusTask.app/WuxusTask</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61B49AE71CF6327A005F883C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>WuxusTaskTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.cw.WuxusTaskTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/WuxusTask.app/WuxusTask</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61B49AE81CF6327A005F883C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61B49AE91CF6327A005F883C</string>
-				<string>61B49AEA1CF6327A005F883C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61B49AE91CF6327A005F883C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>WuxusTaskUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.cw.WuxusTaskUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>WuxusTask</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61B49AEA1CF6327A005F883C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>WuxusTaskUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.cw.WuxusTaskUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>WuxusTask</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>867EE294E67128ACA3CCD8F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E338F559AB0BBC87742992F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9E4BA798C77FAA4965384BEA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>AF6405960DB30575713FA4DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-WuxusTask.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E338F559AB0BBC87742992F9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_WuxusTask.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>61B49AB21CF63279005F883C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61B49ABE1CF63279005F883C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49ABD1CF63279005F883C /* AppDelegate.swift */; };
+		61B49AC01CF63279005F883C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49ABF1CF63279005F883C /* ViewController.swift */; };
+		61B49AC31CF63279005F883C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B49AC11CF63279005F883C /* Main.storyboard */; };
+		61B49AC51CF63279005F883C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B49AC41CF63279005F883C /* Assets.xcassets */; };
+		61B49AC81CF63279005F883C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B49AC61CF63279005F883C /* LaunchScreen.storyboard */; };
+		61B49AD31CF63279005F883C /* WuxusTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AD21CF63279005F883C /* WuxusTaskTests.swift */; };
+		61B49ADE1CF6327A005F883C /* WuxusTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49ADD1CF6327A005F883C /* WuxusTaskUITests.swift */; };
+		61B49AED1CF63B5D005F883C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AEC1CF63B5D005F883C /* PostModel.swift */; };
+		61B49AEE1CF63B5D005F883C /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AEC1CF63B5D005F883C /* PostModel.swift */; };
+		61B49AF21CF640C4005F883C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AF11CF640C4005F883C /* APIController.swift */; };
+		61B49AF31CF640C4005F883C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AF11CF640C4005F883C /* APIController.swift */; };
+		61B49AF61CF642DE005F883C /* HelperUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AF51CF642DE005F883C /* HelperUtil.swift */; };
+		61B49AF71CF642DE005F883C /* HelperUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AF51CF642DE005F883C /* HelperUtil.swift */; };
+		61B49AFC1CF65C8D005F883C /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */; };
+		61B49AFD1CF65C8D005F883C /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */; };
+		867EE294E67128ACA3CCD8F4 /* Pods_WuxusTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E338F559AB0BBC87742992F9 /* Pods_WuxusTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B49ACF1CF63279005F883C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B49AB21CF63279005F883C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B49AB91CF63279005F883C;
+			remoteInfo = WuxusTask;
+		};
+		61B49ADA1CF6327A005F883C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B49AB21CF63279005F883C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B49AB91CF63279005F883C;
+			remoteInfo = WuxusTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40ECC3C1B4EBD126821A54B0 /* Pods-WuxusTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuxusTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask.debug.xcconfig"; sourceTree = "<group>"; };
+		61B49ABA1CF63279005F883C /* WuxusTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuxusTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B49ABD1CF63279005F883C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61B49ABF1CF63279005F883C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61B49AC21CF63279005F883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61B49AC41CF63279005F883C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61B49AC71CF63279005F883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61B49AC91CF63279005F883C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B49ACE1CF63279005F883C /* WuxusTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuxusTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B49AD21CF63279005F883C /* WuxusTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuxusTaskTests.swift; sourceTree = "<group>"; };
+		61B49AD41CF63279005F883C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B49AD91CF6327A005F883C /* WuxusTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuxusTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B49ADD1CF6327A005F883C /* WuxusTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WuxusTaskUITests.swift; sourceTree = "<group>"; };
+		61B49ADF1CF6327A005F883C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B49AEC1CF63B5D005F883C /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		61B49AF11CF640C4005F883C /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		61B49AF51CF642DE005F883C /* HelperUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperUtil.swift; sourceTree = "<group>"; };
+		61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AF6405960DB30575713FA4DE /* Pods-WuxusTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuxusTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask.release.xcconfig"; sourceTree = "<group>"; };
+		E338F559AB0BBC87742992F9 /* Pods_WuxusTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WuxusTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B49AB71CF63279005F883C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867EE294E67128ACA3CCD8F4 /* Pods_WuxusTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B49ACB1CF63279005F883C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B49AD61CF6327A005F883C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1EB28C66F2FCA0750C1D4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40ECC3C1B4EBD126821A54B0 /* Pods-WuxusTask.debug.xcconfig */,
+				AF6405960DB30575713FA4DE /* Pods-WuxusTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B8B6C614428670557302B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E338F559AB0BBC87742992F9 /* Pods_WuxusTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61B49AB11CF63279005F883C = {
+			isa = PBXGroup;
+			children = (
+				61B49ABC1CF63279005F883C /* WuxusTask */,
+				61B49AD11CF63279005F883C /* WuxusTaskTests */,
+				61B49ADC1CF6327A005F883C /* WuxusTaskUITests */,
+				61B49ABB1CF63279005F883C /* Products */,
+				1E1EB28C66F2FCA0750C1D4E /* Pods */,
+				3B8B6C614428670557302B60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61B49ABB1CF63279005F883C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B49ABA1CF63279005F883C /* WuxusTask.app */,
+				61B49ACE1CF63279005F883C /* WuxusTaskTests.xctest */,
+				61B49AD91CF6327A005F883C /* WuxusTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B49ABC1CF63279005F883C /* WuxusTask */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AEB1CF63B30005F883C /* DataModel */,
+				61B49AEF1CF64079005F883C /* Delegates */,
+				61B49AF01CF64093005F883C /* ViewControllers */,
+				61B49AF41CF642B3005F883C /* WebServices */,
+				61B49AF91CF643A9005F883C /* UI */,
+				61B49AFA1CF65C58005F883C /* CustomComponents */,
+				61B49AF81CF64392005F883C /* Utilities */,
+				61B49AC41CF63279005F883C /* Assets.xcassets */,
+				61B49AC61CF63279005F883C /* LaunchScreen.storyboard */,
+				61B49AC91CF63279005F883C /* Info.plist */,
+			);
+			path = WuxusTask;
+			sourceTree = "<group>";
+		};
+		61B49AD11CF63279005F883C /* WuxusTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AD21CF63279005F883C /* WuxusTaskTests.swift */,
+				61B49AD41CF63279005F883C /* Info.plist */,
+			);
+			path = WuxusTaskTests;
+			sourceTree = "<group>";
+		};
+		61B49ADC1CF6327A005F883C /* WuxusTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61B49ADD1CF6327A005F883C /* WuxusTaskUITests.swift */,
+				61B49ADF1CF6327A005F883C /* Info.plist */,
+			);
+			path = WuxusTaskUITests;
+			sourceTree = "<group>";
+		};
+		61B49AEB1CF63B30005F883C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AEC1CF63B5D005F883C /* PostModel.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		61B49AEF1CF64079005F883C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				61B49ABD1CF63279005F883C /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		61B49AF01CF64093005F883C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61B49ABF1CF63279005F883C /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		61B49AF41CF642B3005F883C /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AF11CF640C4005F883C /* APIController.swift */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		61B49AF81CF64392005F883C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AF51CF642DE005F883C /* HelperUtil.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		61B49AF91CF643A9005F883C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AC11CF63279005F883C /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		61B49AFA1CF65C58005F883C /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */,
+			);
+			name = CustomComponents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B49AB91CF63279005F883C /* WuxusTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B49AE21CF6327A005F883C /* Build configuration list for PBXNativeTarget "WuxusTask" */;
+			buildPhases = (
+				9E4BA798C77FAA4965384BEA /* Check Pods Manifest.lock */,
+				61B49AB61CF63279005F883C /* Sources */,
+				61B49AB71CF63279005F883C /* Frameworks */,
+				61B49AB81CF63279005F883C /* Resources */,
+				3F7D49EC1E862650CA4137F1 /* Embed Pods Frameworks */,
+				57B73F94A37E99C8E56878B9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WuxusTask;
+			productName = WuxusTask;
+			productReference = 61B49ABA1CF63279005F883C /* WuxusTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B49ACD1CF63279005F883C /* WuxusTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B49AE51CF6327A005F883C /* Build configuration list for PBXNativeTarget "WuxusTaskTests" */;
+			buildPhases = (
+				61B49ACA1CF63279005F883C /* Sources */,
+				61B49ACB1CF63279005F883C /* Frameworks */,
+				61B49ACC1CF63279005F883C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B49AD01CF63279005F883C /* PBXTargetDependency */,
+			);
+			name = WuxusTaskTests;
+			productName = WuxusTaskTests;
+			productReference = 61B49ACE1CF63279005F883C /* WuxusTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61B49AD81CF6327A005F883C /* WuxusTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B49AE81CF6327A005F883C /* Build configuration list for PBXNativeTarget "WuxusTaskUITests" */;
+			buildPhases = (
+				61B49AD51CF6327A005F883C /* Sources */,
+				61B49AD61CF6327A005F883C /* Frameworks */,
+				61B49AD71CF6327A005F883C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B49ADB1CF6327A005F883C /* PBXTargetDependency */,
+			);
+			name = WuxusTaskUITests;
+			productName = WuxusTaskUITests;
+			productReference = 61B49AD91CF6327A005F883C /* WuxusTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B49AB21CF63279005F883C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CrossWorkers;
+				TargetAttributes = {
+					61B49AB91CF63279005F883C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					61B49ACD1CF63279005F883C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 61B49AB91CF63279005F883C;
+					};
+					61B49AD81CF6327A005F883C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 61B49AB91CF63279005F883C;
+					};
+				};
+			};
+			buildConfigurationList = 61B49AB51CF63279005F883C /* Build configuration list for PBXProject "WuxusTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B49AB11CF63279005F883C;
+			productRefGroup = 61B49ABB1CF63279005F883C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B49AB91CF63279005F883C /* WuxusTask */,
+				61B49ACD1CF63279005F883C /* WuxusTaskTests */,
+				61B49AD81CF6327A005F883C /* WuxusTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B49AB81CF63279005F883C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B49AC81CF63279005F883C /* LaunchScreen.storyboard in Resources */,
+				61B49AC51CF63279005F883C /* Assets.xcassets in Resources */,
+				61B49AC31CF63279005F883C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B49ACC1CF63279005F883C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B49AD71CF6327A005F883C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F7D49EC1E862650CA4137F1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B73F94A37E99C8E56878B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4BA798C77FAA4965384BEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B49AB61CF63279005F883C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B49AF21CF640C4005F883C /* APIController.swift in Sources */,
+				61B49AC01CF63279005F883C /* ViewController.swift in Sources */,
+				61B49AED1CF63B5D005F883C /* PostModel.swift in Sources */,
+				61B49ABE1CF63279005F883C /* AppDelegate.swift in Sources */,
+				61B49AF61CF642DE005F883C /* HelperUtil.swift in Sources */,
+				61B49AFC1CF65C8D005F883C /* PostTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B49ACA1CF63279005F883C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B49AD31CF63279005F883C /* WuxusTaskTests.swift in Sources */,
+				61B49AF71CF642DE005F883C /* HelperUtil.swift in Sources */,
+				61B49AFD1CF65C8D005F883C /* PostTableViewCell.swift in Sources */,
+				61B49AEE1CF63B5D005F883C /* PostModel.swift in Sources */,
+				61B49AF31CF640C4005F883C /* APIController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B49AD51CF6327A005F883C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B49ADE1CF6327A005F883C /* WuxusTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B49AD01CF63279005F883C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B49AB91CF63279005F883C /* WuxusTask */;
+			targetProxy = 61B49ACF1CF63279005F883C /* PBXContainerItemProxy */;
+		};
+		61B49ADB1CF6327A005F883C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B49AB91CF63279005F883C /* WuxusTask */;
+			targetProxy = 61B49ADA1CF6327A005F883C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61B49AC11CF63279005F883C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B49AC21CF63279005F883C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61B49AC61CF63279005F883C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B49AC71CF63279005F883C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61B49AE01CF6327A005F883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61B49AE11CF6327A005F883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B49AE31CF6327A005F883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40ECC3C1B4EBD126821A54B0 /* Pods-WuxusTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WuxusTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cw.WuxusTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61B49AE41CF6327A005F883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6405960DB30575713FA4DE /* Pods-WuxusTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WuxusTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cw.WuxusTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61B49AE61CF6327A005F883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WuxusTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cw.WuxusTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WuxusTask.app/WuxusTask";
+			};
+			name = Debug;
+		};
+		61B49AE71CF6327A005F883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WuxusTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cw.WuxusTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WuxusTask.app/WuxusTask";
+			};
+			name = Release;
+		};
+		61B49AE91CF6327A005F883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WuxusTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cw.WuxusTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WuxusTask;
+			};
+			name = Debug;
+		};
+		61B49AEA1CF6327A005F883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WuxusTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cw.WuxusTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WuxusTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B49AB51CF63279005F883C /* Build configuration list for PBXProject "WuxusTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B49AE01CF6327A005F883C /* Debug */,
+				61B49AE11CF6327A005F883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B49AE21CF6327A005F883C /* Build configuration list for PBXNativeTarget "WuxusTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B49AE31CF6327A005F883C /* Debug */,
+				61B49AE41CF6327A005F883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B49AE51CF6327A005F883C /* Build configuration list for PBXNativeTarget "WuxusTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B49AE61CF6327A005F883C /* Debug */,
+				61B49AE71CF6327A005F883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B49AE81CF6327A005F883C /* Build configuration list for PBXNativeTarget "WuxusTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B49AE91CF6327A005F883C /* Debug */,
+				61B49AEA1CF6327A005F883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B49AB21CF63279005F883C /* Project object */;
+}
