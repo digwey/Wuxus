@@ -1,0 +1,28 @@
+PODS:
+  - AFMInfoBanner (1.2.1):
+    - CVKHierarchySearcher (~> 0.2)
+  - Alamofire (3.4.0)
+  - CVKHierarchySearcher (0.2.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - AFMInfoBanner
+  - Alamofire
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  AFMInfoBanner: a7bcfd409faa624f043e604ae4fb789c84b22815
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  CVKHierarchySearcher: 7be8d3bcbcc6f86ff07f785e6c632b5e40da2553
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
