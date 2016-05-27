@@ -2,7 +2,7 @@
 WUXUS iOS mobile development task
 ============
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
-![License](https://img.shields.io/badge/WUXUS%20Task-green.svg)
+![License](https://img.shields.io/badge/WUXUS-testing-red.svg)
 
 
 **Table of Contents**  
