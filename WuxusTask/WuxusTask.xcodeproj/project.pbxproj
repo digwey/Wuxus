@@ -22,6 +22,10 @@
 		61B49AF71CF642DE005F883C /* HelperUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AF51CF642DE005F883C /* HelperUtil.swift */; };
 		61B49AFC1CF65C8D005F883C /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */; };
 		61B49AFD1CF65C8D005F883C /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */; };
+		61B49B391CF774B9005F883C /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49B381CF774B9005F883C /* PostDetailsViewController.swift */; };
+		61B49B3B1CF78040005F883C /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49B3A1CF78040005F883C /* CommentModel.swift */; };
+		61B49B3D1CF783A9005F883C /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49B3C1CF783A9005F883C /* CommentTableViewCell.swift */; };
+		61B49B3F1CF7A77F005F883C /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B49B3E1CF7A77F005F883C /* AddPostViewController.swift */; };
 		867EE294E67128ACA3CCD8F4 /* Pods_WuxusTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E338F559AB0BBC87742992F9 /* Pods_WuxusTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +65,10 @@
 		61B49AF11CF640C4005F883C /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		61B49AF51CF642DE005F883C /* HelperUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperUtil.swift; sourceTree = "<group>"; };
 		61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		61B49B381CF774B9005F883C /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		61B49B3A1CF78040005F883C /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		61B49B3C1CF783A9005F883C /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		61B49B3E1CF7A77F005F883C /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		AF6405960DB30575713FA4DE /* Pods-WuxusTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuxusTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuxusTask/Pods-WuxusTask.release.xcconfig"; sourceTree = "<group>"; };
 		E338F559AB0BBC87742992F9 /* Pods_WuxusTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WuxusTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,7 +144,8 @@
 				61B49AEB1CF63B30005F883C /* DataModel */,
 				61B49AEF1CF64079005F883C /* Delegates */,
 				61B49AF01CF64093005F883C /* ViewControllers */,
-				61B49AF41CF642B3005F883C /* WebServices */,
+				61B49B371CF77289005F883C /* Services */,
+				61B49AF41CF642B3005F883C /* Connectivity */,
 				61B49AF91CF643A9005F883C /* UI */,
 				61B49AFA1CF65C58005F883C /* CustomComponents */,
 				61B49AF81CF64392005F883C /* Utilities */,
@@ -169,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				61B49AEC1CF63B5D005F883C /* PostModel.swift */,
+				61B49B3A1CF78040005F883C /* CommentModel.swift */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -185,16 +195,18 @@
 			isa = PBXGroup;
 			children = (
 				61B49ABF1CF63279005F883C /* ViewController.swift */,
+				61B49B381CF774B9005F883C /* PostDetailsViewController.swift */,
+				61B49B3E1CF7A77F005F883C /* AddPostViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		61B49AF41CF642B3005F883C /* WebServices */ = {
+		61B49AF41CF642B3005F883C /* Connectivity */ = {
 			isa = PBXGroup;
 			children = (
 				61B49AF11CF640C4005F883C /* APIController.swift */,
 			);
-			name = WebServices;
+			name = Connectivity;
 			sourceTree = "<group>";
 		};
 		61B49AF81CF64392005F883C /* Utilities */ = {
@@ -217,8 +229,16 @@
 			isa = PBXGroup;
 			children = (
 				61B49AFB1CF65C8D005F883C /* PostTableViewCell.swift */,
+				61B49B3C1CF783A9005F883C /* CommentTableViewCell.swift */,
 			);
 			name = CustomComponents;
+			sourceTree = "<group>";
+		};
+		61B49B371CF77289005F883C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,8 +424,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				61B49AF21CF640C4005F883C /* APIController.swift in Sources */,
+				61B49B3B1CF78040005F883C /* CommentModel.swift in Sources */,
 				61B49AC01CF63279005F883C /* ViewController.swift in Sources */,
+				61B49B391CF774B9005F883C /* PostDetailsViewController.swift in Sources */,
+				61B49B3D1CF783A9005F883C /* CommentTableViewCell.swift in Sources */,
 				61B49AED1CF63B5D005F883C /* PostModel.swift in Sources */,
+				61B49B3F1CF7A77F005F883C /* AddPostViewController.swift in Sources */,
 				61B49ABE1CF63279005F883C /* AppDelegate.swift in Sources */,
 				61B49AF61CF642DE005F883C /* HelperUtil.swift in Sources */,
 				61B49AFC1CF65C8D005F883C /* PostTableViewCell.swift in Sources */,

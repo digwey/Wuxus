@@ -22,16 +22,17 @@ struct PostModel {
         title = ""
         body = ""
     }
+    
     init(userId :Double ,
          id :Double ,
          title :String ,
          body :String)
     {
-        
         self.userId = userId
         self.id = id
         self.title = title
         self.body = body
-        
     }
+    
+    
 }

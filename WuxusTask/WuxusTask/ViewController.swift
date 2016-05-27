@@ -12,13 +12,14 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
     var postList :[PostModel] = []
     
     @IBOutlet weak var postsTableView: UITableView!
+    @IBOutlet weak var loadingActivity: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         getPosts()
     }
-    // MARK : - Table View Delegate And Data Source
     
+    // MARK : - Table View Delegate And Data Source
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell :PostTableViewCell = self.postsTableView.dequeueReusableCellWithIdentifier("PostCell") as!PostTableViewCell
         
@@ -26,22 +27,28 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
         
         cell.postTitle.text =  post.title
         cell.postBody.text = post.body
+        cell.postBody.lineBreakMode = .ByWordWrapping
         return cell
 
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return postList.count
     }
     
-    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let postDetailsVC = self.storyboard?.instantiateViewControllerWithIdentifier("postDetailsIdentifier") as!PostDetailsViewController
+        postDetailsVC.post = postList[indexPath.row]
+        self.navigationController?.pushViewController(postDetailsVC, animated: true)
+    }
     
     func getPosts()
     {
-        APIController.messagesService()
+        self.loadingActivity.startAnimating()
+        APIController.postService()
             {
                 jsonResponse,errorDescription, errorValue in
+                self.loadingActivity.stopAnimating()
                 if(!errorValue) // Success
                 {
                     if(errorDescription == "")
